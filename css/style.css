@@ -1,0 +1,430 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+body
+{
+    font-family: 'Roboto', sans-serif;
+}
+
+
+
+
+/* Nawigacja */
+nav
+{
+    position: relative;
+    max-width: 100%;
+    min-height: 90px;
+    background: #6600ff;
+    margin: 0 auto;
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    
+}
+
+nav ul
+{
+    margin: 0 auto;
+   margin-left: 50px;
+}
+nav li
+{
+    display: inline-block;
+    line-height: 90px;
+    text-align: center;
+    
+    
+}
+nav a 
+{
+    color: #fff;
+    text-decoration: none;
+    padding: 0 20px;
+    display: inline-block;
+    line-height: 40px;
+}
+
+nav a:hover
+{
+    background: rgba(0,0,0,.5);
+    display: block;
+    color: white;
+    text-decoration: none;
+}
+
+.toggle-nav, .hamburger
+{
+    display: none;
+    color: #fff;
+}
+.expand
+    {
+        display: block;
+    }
+
+
+
+
+/* Slider */
+#slider
+{
+    height: 100%;
+}
+
+.flex-caption {
+  width: 100%;
+  padding: 2%;
+  left: 0;
+  bottom: 0;
+  background: rgba(0,0,0,.5);
+  color: #fff;
+  text-shadow: 0 -1px 0 rgba(0,0,0,.3);
+  font-size: 14px;
+  line-height: 18px;
+}
+
+
+
+
+/*Sekcja first */
+#first
+{
+    background-image: url("img/gray_jean/gray_jean/gray_jean.png") no-repeat;
+}
+.items
+{
+    text-align: center;
+}
+.items img
+{
+    max-width: 100%;
+}
+
+#first .title
+{
+    font-size: 50px;
+    text-align: center;
+    margin: 0 auto;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin: 60px auto 25px;
+}
+#first .items
+{
+    margin: 80px auto 130px;
+}
+#first h4
+{
+    margin-top: 30px;
+    font-weight: 800;
+    font-size: 30px;
+    color: darkred;
+    
+}
+
+
+
+
+/* Sekcja people*/
+#people
+{
+   background: lightblue; 
+}
+#people .text
+{
+    margin-bottom: 70px;
+    margin-top: 120px;
+    text-transform: uppercase;
+    font-size: 50px;
+    font-weight: bold;
+}
+#people img
+{
+    margin-left: auto;
+    margin-right: auto;
+    border: 6px solid white;
+}
+
+#people h4, #people p
+{
+    text-align: center;
+}
+
+#people h4
+{
+    margin-top: 60px;
+    font-size: 24px;
+}
+
+#people .social-buttons
+{
+    font-size: 30px;
+}
+
+#people .fa:hover
+{
+    color: orange;
+}
+
+#people .text1
+{
+    margin-top: 50px;
+    margin-bottom: 100px;
+    font-size: 18px;
+}
+
+
+
+/* Sekcja pictures */
+#facts .facts1
+{
+    margin-top: 70px;
+    color: darkred;
+}
+#facts .facts1 h3
+{
+    font-weight: 700;
+}
+#facts .facts2
+{
+    margin-top: 70px;
+    margin-bottom: 20px;
+    font-weight: 700;
+    font-size: 26px;
+}
+#facts .blue
+{
+    color: blue;
+}
+#facts .yellow
+{
+    color: darkorange;
+}
+#facts .red
+{
+    color: red;
+}
+#facts .green
+{
+    color: green;
+}
+
+
+
+
+
+/* Sekcja pictures*/
+#pictures img
+{
+    margin-left: auto;
+    margin-right: auto;
+}
+#pictures .pic1
+{
+    margin-top: 100px;
+    margin-bottom: 60px;
+}
+#pictures .pic
+{
+    margin: 30px auto 70px;
+    padding: 15px;
+    border: 1px solid #660000;
+}
+#pictures h4, #pictures p
+{
+    text-align: center;
+}
+#pictures h4
+{
+    margin-top: 20px;
+    font-weight: 700;
+    color: darkslategray;
+}
+#pictures .bt4
+{
+    background: red;
+    color: white;
+}
+
+
+
+
+/* Sekcja work*/
+#work
+{
+    background: black;
+}
+.ghost-button-full-color {
+      display: inline-block;
+      width: 200px;
+      padding: 8px;
+      color: #fff;
+      background-color: transparent;
+      border: 2px solid #fff;
+      text-align: center;
+      outline: none;
+      text-decoration: none;
+      transition: color 0.3s ease-out;
+        background-color 0.3s ease-out;
+        border-color 0.3s ease-out;
+}
+.ghost-button-full-color:hover,
+.ghost-button-full-color:active {
+    background-color: #e6e6e6;
+    border-color: #e6e6e6;
+    color: #000;
+    transition: color 0.3s ease-in;
+    background-color: 0.3s ease-in;
+    border-color: 0.3s ease-in;
+}
+#work .work-1
+{
+    margin-top: 150px;
+}
+#work .symbol
+{
+    font-size: 30px;
+    overflow: hidden;
+    text-align: center;
+    margin: 50px auto 40px;
+}
+#work .symbol:hover
+{
+    color: white;
+}
+#work .work-1:hover
+{
+    color: white;
+}
+#work span
+{
+    display: inline-block;
+  padding: 0 15px;
+  position: relative;
+}
+#work span:before,
+#work span:after {
+  background: #fff;
+  content: "";
+  display: block;
+  height: 1px;
+  position: absolute;
+    top: 50%;
+  width: 200%;
+}
+#work span:before {
+  right: 100%;
+}
+#work span:after {
+  left: 100%;
+}
+#work .but
+{
+    margin-bottom: 140px;
+}
+#work img
+{
+    opacity: 0.7;
+}
+#work img:hover
+{
+    opacity: 1;
+}
+#work .work-2
+{
+    margin-bottom: 120px;
+}
+
+
+
+
+/* sekcja last */
+#last
+{
+    margin: 90px auto;
+}
+#last .last-front
+{
+    margin-top: 60px;
+}
+
+#last .social li
+{
+    border: 1px solid black;
+    border-radius: 100%;
+    margin: 1px 5px;
+}
+#last .social li:hover
+{
+    background: grey;
+    border: 1px solid grey;
+}
+#last .social li .fa
+{
+    width: 40px;
+    height: 40px;
+    text-align: center;
+}
+
+#last .social li i
+{
+    margin-top: 15px;
+}
+#last .social li a
+{
+    font-size: 30px;
+}
+#last .social li a:hover
+{
+    color: white;
+}
+#last .last-1 p
+{
+    margin-top: 40px;
+    letter-spacing: 1px;
+    line-height: 30px;
+}
+#last .last-2 p
+{
+  margin-top: 40px;  
+}
+#last .last-2 .social
+{
+    margin-top: 30px;
+}
+#last .last-3 .square-button
+{
+    background: #cc0033;
+    width: 150px;
+    height: 30px;
+    text-transform: uppercase;
+    font-weight: 700;
+    text-align: center;
+    border-radius: 10px;
+     border: none;
+    margin-top: 10px;
+}
+#last .last-3 .square-button:hover
+{
+    background: #ff3366;
+    border: 0,5px solid black;
+}
+#last .last-3 .contact-form
+{
+    margin-top: 40px;
+}
+#last .last-3 h2
+{
+    margin-left: 15px;
+    
+}
+
+
+/* Footer */
+footer
+{
+    background: #ccccff;
+}

@@ -1,0 +1,155 @@
+@media (min-width: 769px){
+    #people h4
+    {
+    margin-top: 30px;
+    }
+     #facts .facts2
+    {
+    margin-top: 70px;
+    margin-bottom: 100px;
+    }
+     #facts .red, #facts .blue
+    {
+        margin-bottom: 30px;
+    }
+    #people .peop
+    {
+        margin: 50px auto 20px;
+    }
+    #first .items
+    {
+    margin: 50px auto;
+    }
+}
+
+
+
+
+
+@media (max-width: 768px){
+    .toggle-nav
+    {
+        display: block;
+        height: 60px;
+        
+    }
+    
+    .hamburger
+    {
+        display: block;
+        margin-right: 15px;
+        margin-top: 20px;
+        float: right;
+        font-size: 48px;
+        transform: rotate(90deg);
+        height: 40px;
+    }
+    .hambuerger:hover
+    {
+     cursor: pointer;
+    }
+    nav li
+    {
+        display: block;
+        border-bottom: 1px solid #fff;
+        height: 100%;
+    }
+    nav a
+    {
+        width: 100%;
+        display: block;
+        padding: 0;
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    nav li:last-child
+    {
+        border-bottom: 1,5px solid #000;
+    }
+ 
+    nav ul 
+    {
+        display: none;
+        margin-left: 0px;
+    }
+    .flexslider .slides img
+    {
+        max-height: 550px;
+    }
+    #facts .red, #facts .blue #facts yellow, #facts .green
+    {
+        margin: 50px auto;
+    }
+    #first .items
+    {
+    margin: 20px auto 40px;
+    }
+    
+    #pictures .pic1
+    {
+        margin-bottom: 10px;
+    }
+    #people h4
+    {
+    margin-top: 30px;
+    }
+    #people .peop
+    {
+        margin: 50px auto 20px;
+    }
+    .items img
+    {
+    max-width: 75%;
+    }
+    #last .last-1, #last .last-2, #last .last-3
+    {
+        text-align: center;
+        margin-bottom: 30px;
+        
+    }
+    #last .last-3 .square-button
+    {
+        min-width: 60%;
+        margin-top: 20px;
+    }
+    #people .text
+    {
+        font-size: 30px;
+    }
+}
+
+
+
+
+
+@media (max-width: 479px){
+    
+    .flexslider .slides img
+    {
+        max-height: 400px;
+    }
+    
+    #facts .red, #facts .blue #facts .yellow, #facts .green
+    {
+        margin: 20px auto;
+    }
+    
+    #people .peop
+    {
+        margin: 50px auto 20px;
+    }
+    #people h4
+    {
+    margin-top: 30px;
+    }
+    #first .items
+    {
+    margin: 20px auto 40px;
+    }
+    .items img
+    {
+    max-width: 75%;
+    }
+    
+}
