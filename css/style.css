@@ -90,10 +90,6 @@ nav a:hover
 
 
 /*Sekcja first */
-#first
-{
-    background-image: url("img/gray_jean/gray_jean/gray_jean.png") no-repeat;
-}
 .items
 {
     text-align: center;
@@ -178,7 +174,7 @@ nav a:hover
 
 
 
-/* Sekcja pictures */
+/* Sekcja facts */
 #facts .facts1
 {
     margin-top: 70px;
